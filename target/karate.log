@@ -1,0 +1,1163 @@
+19:33:47.151 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+19:33:47.155 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+karate.env = 'dev'
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+19:33:47.156 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+19:36:28.654 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+19:36:28.659 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+karate.env = 'dev'
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+19:36:28.659 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+09:55:37.341 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+09:55:37.380 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+09:55:37.380 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+10:00:40.930 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:01:00.948 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+10:01:00.952 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+10:01:00.953 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+10:13:19.466 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+10:13:19.470 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+10:13:19.471 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+10:17:00.900 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+10:17:00.908 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+10:17:00.909 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+10:17:38.459 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:17:38.652 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+10:17:38.655 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - failed function body: function(){
+
+
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+10:17:38.655 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+10:17:38.835 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/JenkinsPostTestNew.feature
+10:41:14.429 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:41:14.597 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+10:41:14.599 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - failed function body: function(){
+
+
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+10:41:14.600 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+10:41:14.746 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/JenkinsPostTestNew.feature
+15:26:19.862 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+15:26:19.895 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+15:26:19.895 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+16:09:29.196 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+16:09:29.211 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+16:09:29.212 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+16:11:06.909 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+16:11:06.913 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+var env = karate.env
+karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+//if(env=='test'){
+//config.baseUrl = 'https://test.phonon.in';
+//}else if(env=='c4c'){
+//config.baseUrl = 'https://c4c.phonon.in';
+//}
+return config;
+}
+16:11:06.914 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+16:11:36.290 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_111)
+
+16:11:38.157 [main] DEBUG com.intuit.karate - response time in milliseconds: 1861.37
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 41
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Tue, 02 Jun 2020 10:41:39 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=082EA4B62C675BA1EA8573714CF2ECEA;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+16:27:40.848 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_111)
+
+16:27:42.175 [main] DEBUG com.intuit.karate - response time in milliseconds: 1302.00
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 41
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Tue, 02 Jun 2020 10:57:43 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=C80850E0BB6CAA908AE548DF8C670114;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+16:28:46.613 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "env" is not defined
+16:28:46.619 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+//var env = karate.env
+//karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+16:28:46.620 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "env" is not defined
+16:29:23.901 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "env" is not defined
+16:29:23.905 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+//var env = karate.env
+//karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+16:29:23.906 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "env" is not defined
+16:29:57.478 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+16:29:57.483 [main] ERROR com.intuit.karate - failed function body: function(){
+
+
+var env = karate.env
+//karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+16:29:57.483 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+16:30:39.757 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+16:30:39.762 [main] ERROR com.intuit.karate - failed function body: function(){ var env = karate.env
+//karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+16:30:39.763 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+16:33:01.322 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+16:33:01.327 [main] ERROR com.intuit.karate - failed function body: function(){ var env = karate.env
+//karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+16:33:01.327 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+16:34:08.569 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "karate" is not defined
+16:34:08.573 [main] ERROR com.intuit.karate - failed function body: function(){ var env = karate.env
+//karate.log("Environment Variable value is ------",env)
+var config = {
+  
+baseUrl : 'https://dev.phonon.in'
+
+}; 
+if(env=='test'){
+config.baseUrl = 'https://test.phonon.in';
+}else if(env=='c4c'){
+config.baseUrl = 'https://c4c.phonon.in';
+}
+return config;
+}
+16:34:08.573 [main] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined
+20:52:02.145 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+20:52:04.734 [main] DEBUG com.intuit.karate - response time in milliseconds: 2532.32
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 41
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Wed, 03 Jun 2020 15:22:06 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=B43F2F2994DD0C4E4F5D4D578730907E;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+20:53:04.123 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+20:53:05.034 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+20:53:06.022 [main] DEBUG com.intuit.karate - response time in milliseconds: 984.22
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 41
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Wed, 03 Jun 2020 15:23:08 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=E156DCF3CC37D39E0EEA41602B89D240;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+20:53:57.117 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+20:53:58.086 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+20:53:58.960 [main] DEBUG com.intuit.karate - response time in milliseconds: 871.86
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 41
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Wed, 03 Jun 2020 15:24:01 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=D81F6223EE7A647351B7D30FD34A3BCF;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+21:00:36.773 [main] INFO  com.intuit.karate - Environment Variable value is ------ dev 
+21:00:37.851 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+21:00:39.100 [main] DEBUG com.intuit.karate - response time in milliseconds: 1243.15
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 41
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Wed, 03 Jun 2020 15:30:41 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=54E2E2836D4AA9D36383F743C1DC731E;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+21:01:03.612 [main] INFO  com.intuit.karate - Environment Variable value is ------ test 
+21:01:04.652 [main] DEBUG com.intuit.karate - request:
+1 > GET https://test.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: test.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+21:01:06.238 [main] DEBUG com.intuit.karate - response time in milliseconds: 1567.12
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: [private, no-cache, no-store, must-revalidate]
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Wed, 03 Jun 2020 15:31:08 GMT
+1 < Expires: [Thu, 01 Jan 1970 05:30:00 IST, Thu, 01 Jan 1970 00:00:00 GMT]
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Test-Server
+1 < Set-Cookie: JSESSIONID=438205D1FADB08CD86F0378B0802A0C5;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: Accept-Encoding,User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+09:25:30.258 [main] INFO  com.intuit.karate - Environment Variable value is ------ test 
+09:25:31.176 [main] DEBUG com.intuit.karate - request:
+1 > GET https://test.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: test.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+09:25:33.246 [main] DEBUG com.intuit.karate - response time in milliseconds: 2064.92
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: [private, no-cache, no-store, must-revalidate]
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 03:55:35 GMT
+1 < Expires: [Thu, 01 Jan 1970 05:30:00 IST, Thu, 01 Jan 1970 00:00:00 GMT]
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Test-Server
+1 < Set-Cookie: JSESSIONID=4EE4B41814D62A20DF873F78530EDEFA;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: Accept-Encoding,User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+11:23:58.788 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:23:58.973 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - Environment Variable value is ------  
+11:23:59.936 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/C2CRequest?visitor=912657123411&advertiser=&uniqueID=1&custID=&custToken=7qc1hfr&duration=900&udf1=&udf2=&udf3=&udf4=advFirst&udf5=retargeting&udf7=F7688F4E05769CE32E43AF9E7F0DE22C
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+11:24:01.394 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1456.25
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 66
+1 < Content-Type: text/html;charset=UTF-8
+1 < Date: Thu, 04 Jun 2020 05:54:04 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=841F5062EC398893989717DA9CF2E1EC;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+NACK:Invalid Source IP parameter:20000000000011030019:912653954062
+
+11:24:01.518 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/JenkinsGetTest.feature
+11:24:37.709 [main] INFO  com.intuit.karate - Environment Variable value is ------ dev 
+11:24:38.658 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+11:24:39.562 [main] DEBUG com.intuit.karate - response time in milliseconds: 901.49
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 41
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 05:54:43 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=0838BAA1EED3194DB4BA39FC9C8C55B8;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+11:29:35.698 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+11:29:36.598 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/C2CRequest?visitor=912657123411&custToken=7qc1hfr&duration=900&udf4=advFirst&udf5=retargeting&udf7=F7688F4E05769CE32E43AF9E7F0DE22C
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+11:29:37.749 [main] DEBUG com.intuit.karate - response time in milliseconds: 1145.20
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 66
+1 < Content-Type: text/html;charset=UTF-8
+1 < Date: Thu, 04 Jun 2020 05:59:41 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=004E1C447DE9FFB9C19340F43037CFFF;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+NACK:Invalid Source IP parameter:20000000000011030020:912653954063
+
+11:30:28.922 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+11:30:29.924 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/C2CRequest?visitor=912657123411&custToken=7qc1hfr&duration=800&udf4=advFirst&udf5=retargeting&udf7=F7688F4E05769CE32E43AF9E7F0DE22C
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+11:30:30.962 [main] DEBUG com.intuit.karate - response time in milliseconds: 1034.11
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 66
+1 < Content-Type: text/html;charset=UTF-8
+1 < Date: Thu, 04 Jun 2020 06:00:34 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=14834C53C6CA734C775C58A91AE86667;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+NACK:Invalid Source IP parameter:20000000000011030021:912653954064
+
+11:31:52.773 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+11:31:53.731 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+11:31:54.607 [main] DEBUG com.intuit.karate - response time in milliseconds: 873.57
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 41
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 06:01:58 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=FD09AEF72AAFB51B34D2A03FAEC55973;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+12:09:25.926 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+12:09:26.892 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/C2CRequest?visitor=912657123411&custToken=7qc1hfr&duration=800&udf4=advFirst&udf5=retargeting&udf7=F7688F4E05769CE32E43AF9E7F0DE22C
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+12:09:28.066 [main] DEBUG com.intuit.karate - response time in milliseconds: 1172.20
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 66
+1 < Content-Type: text/html;charset=UTF-8
+1 < Date: Thu, 04 Jun 2020 06:39:31 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=F537CF3EB69787FBFAA7FEB766E2BA3B;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+NACK:Invalid Source IP parameter:20000000000011030023:912653954062
+
+12:10:36.284 [main] INFO  com.intuit.karate - Environment Variable value is ------ dev 
+12:10:37.184 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/C2CRequest?visitor=912657123411&custToken=7qc1hfr&duration=800&udf4=advFirst&udf5=retargeting&udf7=F7688F4E05769CE32E43AF9E7F0DE22C
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+12:10:38.453 [main] DEBUG com.intuit.karate - response time in milliseconds: 1259.64
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 66
+1 < Content-Type: text/html;charset=UTF-8
+1 < Date: Thu, 04 Jun 2020 06:40:41 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=F9A30397D09EAF03218C403A6DFD760D;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+NACK:Invalid Source IP parameter:20000000000011030024:912653954063
+
+12:13:52.038 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+12:14:25.988 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+12:14:26.945 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+12:14:28.107 [main] DEBUG com.intuit.karate - response time in milliseconds: 1159.26
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 41
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 06:44:31 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=BCDA19D80038A1F066547D11E391A578;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+12:15:55.534 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+12:15:56.465 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 146
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+{"visitor":"912657123411","custToken":"7qc1hfr","duration":"800","udf4":"advFirst","udf5":"retargeting","udf7":"F7688F4E05769CE32E43AF9E7F0DE22C"}
+
+12:15:59.113 [main] DEBUG com.intuit.karate - response time in milliseconds: 2646.33
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 48
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 06:46:01 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=0404AE73E48A218BCD142DEADE772A04;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"NACK:Pending:20000000000011030025"}
+
+12:31:03.842 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+12:31:04.818 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 146
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+{"visitor":"912657123411","custToken":"7qc1hfr","duration":"800","udf4":"advFirst","udf5":"retargeting","udf7":"F7688F4E05769CE32E43AF9E7F0DE22C"}
+
+12:31:06.735 [main] DEBUG com.intuit.karate - response time in milliseconds: 1915.17
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 48
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 07:01:09 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=65497AB1E73BD9479443F27B483E6B77;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"NACK:Pending:20000000000011030027"}
+
+12:31:29.632 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+12:31:30.613 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 146
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+{"visitor":"912657123411","custToken":"7qc1hfr","duration":"700","udf4":"advFirst","udf5":"retargeting","udf7":"F7688F4E05769CE32E43AF9E7F0DE22C"}
+
+12:31:31.783 [main] DEBUG com.intuit.karate - response time in milliseconds: 1168.58
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 48
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 07:01:35 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=2D2FEF8D7A83C07FDFE73ACD2F1F81BF;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"NACK:Pending:20000000000011030028"}
+
+12:33:50.091 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+12:33:50.998 [main] DEBUG com.intuit.karate - request:
+1 > GET https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+12:33:52.477 [main] DEBUG com.intuit.karate - response time in milliseconds: 1473.12
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 41
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 07:03:56 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=5000D403A0B2E8AFB1985FC2A9C01138;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"Invalid Request parameter."}
+
+12:34:33.953 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+12:34:34.826 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 185
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+{"visitor":"919033563398","advertiser":"919638508969","custToken":"1234abcd","udf1":"Vadodara","udf2":"Mr;Test;Test;FromJSON","udf3":"EnquiryID","udf4":"advFirst","udf5":"IC","udf7":""}
+
+12:34:35.957 [main] DEBUG com.intuit.karate - response time in milliseconds: 1129.21
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 67
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 07:04:39 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=8ECA43F52BA67C5B6839624DBF789A30;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"NACK:Invalid Referrel Parameter:20000000000011030030"}
+
+16:28:15.862 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+16:28:17.183 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 185
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+{"visitor":"919033563398","advertiser":"919638508969","custToken":"1234abcd","udf1":"Vadodara","udf2":"Mr;Test;Test;FromJSON","udf3":"EnquiryID","udf4":"advFirst","udf5":"IC","udf7":""}
+
+16:28:18.749 [main] DEBUG com.intuit.karate - response time in milliseconds: 1565.17
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 67
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 10:58:22 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=DA43F68F1402E95FEBBBA4FE58D771D3;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"NACK:Invalid Referrel Parameter:20000000000011030031"}
+
+16:29:09.108 [main] INFO  com.intuit.karate - Environment Variable value is ------ dev 
+16:29:10.214 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 185
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+{"visitor":"919033563398","advertiser":"919638508969","custToken":"1234abcd","udf1":"Vadodara","udf2":"Mr;Test;Test;FromJSON","udf3":"EnquiryID","udf4":"advFirst","udf5":"IC","udf7":""}
+
+16:29:11.618 [main] DEBUG com.intuit.karate - response time in milliseconds: 1402.43
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 67
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 10:59:15 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=1F8C4DF4E7875B7CF6DFBDB5E0223C45;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"NACK:Invalid Referrel Parameter:20000000000011030032"}
+
+16:29:34.144 [main] INFO  com.intuit.karate - Environment Variable value is ------ test 
+16:29:35.260 [main] DEBUG com.intuit.karate - request:
+1 > POST https://test.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 185
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: test.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+{"visitor":"919033563398","advertiser":"919638508969","custToken":"1234abcd","udf1":"Vadodara","udf2":"Mr;Test;Test;FromJSON","udf3":"EnquiryID","udf4":"advFirst","udf5":"IC","udf7":""}
+
+16:29:37.402 [main] DEBUG com.intuit.karate - response time in milliseconds: 2139.61
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Thu, 04 Jun 2020 10:59:40 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Test-Server
+1 < Set-Cookie: JSESSIONID=1272D1F4BCE4304F762C2EEF0682EFE4;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: Accept-Encoding,User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"NACK:Max Calls Allowed Limit for Customer has Reached:35440:912653321280"}
+
+15:31:34.239 [main] INFO  com.intuit.karate - Environment Variable value is ------  
+15:31:39.186 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 185
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/9.0.1)
+{"visitor":"919033563398","advertiser":"919638508969","custToken":"1234abcd","udf1":"Vadodara","udf2":"Mr;Test;Test;FromJSON","udf3":"EnquiryID","udf4":"advFirst","udf5":"IC","udf7":""}
+
+15:31:45.989 [main] DEBUG com.intuit.karate - response time in milliseconds: 6767.20
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 67
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Mon, 08 Jun 2020 10:01:46 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=B66C1C2E3B1BB63CA38157412CD78775;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"NACK:Invalid Referrel Parameter:20000000000011030066"}
+
+15:50:12.514 [main] INFO  com.intuit.karate - Environment Variable value is ------ dev 
+15:50:17.095 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dev.phonon.in/c2c/JSONRequest
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 185
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/9.0.1)
+{"visitor":"919033563398","advertiser":"919638508969","custToken":"1234abcd","udf1":"Vadodara","udf2":"Mr;Test;Test;FromJSON","udf3":"EnquiryID","udf4":"advFirst","udf5":"IC","udf7":""}
+
+15:50:19.154 [main] DEBUG com.intuit.karate - response time in milliseconds: 2055.85
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 67
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Mon, 08 Jun 2020 10:20:21 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=8C46F1B102905C53F120E48428FEB7CF;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+{"Response":"NACK:Invalid Referrel Parameter:20000000000011030067"}
+

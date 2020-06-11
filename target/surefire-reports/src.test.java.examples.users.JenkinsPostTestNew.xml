@@ -1,0 +1,9 @@
+<testsuite failures="1" name="src/test/java/examples/users/JenkinsPostTestNew.feature" skipped="0" tests="1" time="0">
+  <testcase classname="src.test.java.examples.users.JenkinsPostTestNew" name="Verify that c2c API hit for post method is working" time="0">
+    <failure message="JenkinsPostTestNew.feature:34 - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: &quot;karate&quot; is not defined">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: JenkinsPostTestNew.feature:34 - evaluation of 'karate-config.js' failed: javascript function call failed: ReferenceError: "karate" is not defined&#13;
+	at ✽.* scenario init failed (JenkinsPostTestNew.feature:34)</failure>
+  </testcase>
+</testsuite>

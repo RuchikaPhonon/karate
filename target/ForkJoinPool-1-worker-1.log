@@ -1,0 +1,31 @@
+11:23:58.984 Environment Variable value is ------  
+11:23:59.936 request:
+1 > GET https://dev.phonon.in/c2c/C2CRequest?visitor=912657123411&advertiser=&uniqueID=1&custID=&custToken=7qc1hfr&duration=900&udf1=&udf2=&udf3=&udf4=advFirst&udf5=retargeting&udf7=F7688F4E05769CE32E43AF9E7F0DE22C
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dev.phonon.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+11:24:01.395 response time in milliseconds: 1456.25
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Allow-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Cache-Control: no-cache, no-store, must-revalidate
+1 < Connection: Keep-Alive
+1 < Content-Length: 66
+1 < Content-Type: text/html;charset=UTF-8
+1 < Date: Thu, 04 Jun 2020 05:54:04 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Keep-Alive: timeout=5, max=100
+1 < P3P: CP="DSP COR CURa ADMa DEVo PSAo IVAo IVDo CONa TELo OUR BUS LEG PHY ONL UNI COM NAV DEM PRE LEG", policyref="https://www.phonon.io/privacy-policy/"
+1 < Pragma: no-cache
+1 < Server: Phonon-Server
+1 < Set-Cookie: JSESSIONID=841F5062EC398893989717DA9CF2E1EC;Path=/c2c; Secure; HttpOnly; SameSite=Lax
+1 < Strict-Transport-Security: max-age=63072000; includeSubdomains;
+1 < Vary: User-Agent
+1 < X-Content-Type-Options: nosniff
+1 < X-FRAME-OPTIONS: SAMEORIGIN
+1 < X-XSS-Protection: 1; mode=block
+NACK:Invalid Source IP parameter:20000000000011030019:912653954062
+

@@ -1,0 +1,7 @@
+<testsuite failures="0" name="src/test/java/examples/users/JenkinsGetTest.feature" skipped="0" tests="1" time="2.339263">
+  <testcase classname="src.test.java.examples.users.JenkinsGetTest" name="Verify that c2c API hit for get method is working" time="2.339263">
+    <system-out>Given url 'https://dev.phonon.in/c2c/C2CRequest?visitor=912657123411&amp;advertiser=&amp;uniqueID=1&amp;custID=&amp;custToken=7qc1hfr&amp;duration=900&amp;udf1=&amp;udf2=&amp;udf3=&amp;udf4=advFirst&amp;udf5=retargeting&amp;udf7=F7688F4E05769CE32E43AF9E7F0DE22C' . passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>
